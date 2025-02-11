@@ -485,7 +485,7 @@
   }
 
   [data-smartrr-box-selection-progress-bar] [data-smartrr-bspb-full] {
-    display: block;
+    display: block; /* Commence Change */
 
     font-size: var(--smartrr-text-general-fontsize);
     line-height: var(--smartrr-text-general-lineheight);
@@ -499,6 +499,7 @@
   }
 
 
+  /* Commence Additions */
   [data-smartrr-box-selection-progress-bar] [data-smartrr-bspb-full] > span:nth-child(2) {
     display: none;
   }
@@ -510,6 +511,24 @@
   [data-smartrr-box-selection-progress-bar].smartrr-active [data-smartrr-bspb-full] > span:nth-child(2) {
     display: block;
   }
+
+  [data-smartrr-bundle-pack-selection] ~ #shoe-size-container {
+    display: none;
+  }
+
+  [data-smartrr-bundle-pack-selection]:has([data-smartrr-bundle-pack].smartrr-active) ~ #shoe-size-container {
+    display: block;
+  }
+
+  #shoe-size-container ~ [data-smartrr-product-selection], #shoe-size-container ~ [data-smartrr-cart-info] {
+    display: none;
+  }
+
+  #shoe-size-container:has(option:checked:not(:disabled)) ~ [data-smartrr-product-selection], #shoe-size-container:has(option:checked:not(:disabled)) ~ [data-smartrr-cart-info] {
+    display: block;
+  }
+
+  /* End Commence Additions */
 
   [data-smartrr-box-selection-progress-bar].smartrr-active {
     box-shadow: 0px 0px 0px 2px var(--smartrr-progress-bar-color-alternate) inset;
