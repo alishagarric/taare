@@ -398,6 +398,7 @@
           PROGRESSBAR: {
             BARTAG: "data-smartrr-bspb-bar",
             FULLTAG: "data-smartrr-bspb-full",
+            CURRENTTAG: "data-smartrr-progress-current",
           },
           CARDLISTTAG: "data-smartrr-box-selection-cards",
           BOXCLEARTAG: "data-smartrr-box-clear",
@@ -1208,7 +1209,9 @@
        */
       var $progress = sh.qsd($cartInfo, qt.CARTINFO.BOXSELECTION.PROGRESSBARTAG);
       var $span = sh.qsd($progress, qt.CARTINFO.BOXSELECTION.PROGRESSBAR.BARTAG);
+      var $current = sh.qsd($progress, qt.CARTINFO.BOXSELECTION.PROGRESSBAR.CURRENTTAG);
       $span.style.left = `${-100 + (c.currentNum / c.pack.maxProducts) * 100}%`;
+      $current.textContent = c.currentNum;
       if (sh.seq(c.currentNum, c.pack.maxProducts)) {
         sh.addClass($progress, ct.ACTIVE);
       } else {
@@ -1367,17 +1370,15 @@
               </div>
             </div>
 
-            {% comment %} Commence Modification, remove comment tags to re-show search bar
-              <div data-smartrr-product-selection-search-container>
-                <div data-smartrr-product-selection-search>
-                  <input placeholder="${intl().productSearchPlaceholder}">
-                  ${SVGList.searchIcon}
-                </div>
-                <div data-smartrr-product-search-mobile-cta>
-                  ${SVGList.searchIcon}
-                </div>
+            <div data-smartrr-product-selection-search-container style="display: none;">
+              <div data-smartrr-product-selection-search>
+                <input placeholder="${intl().productSearchPlaceholder}">
+                ${SVGList.searchIcon}
               </div>
-            {% endcomment %}
+              <div data-smartrr-product-search-mobile-cta>
+                ${SVGList.searchIcon}
+              </div>
+            </div>
           </div>
           <div data-smartrr-product-selection-list class="smartrr-scrollbar">
             <div data-smartrr-psl-empty class="${ct.HIDE}">
@@ -1514,8 +1515,8 @@
           <div data-smartrr-box-selection>
             <div data-smartrr-box-selection-progress-bar>
               <span data-smartrr-bspb-bar></span>
-
               <div data-smartrr-bspb-full>
+                <span><span data-smartrr-progress-current>${current}</span> of ${max} chosen</span>
                 <span>${intl().cartBoxFull}</span>
               </div>
             </div>
