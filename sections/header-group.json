@@ -16,6 +16,7 @@
         "blocks": {
           "announcement_ba68dA": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "<strong>PREORDER NOW. SHIPS FEB 1ST, 2025.</strong>",
               "show_countdown": false,
@@ -122,7 +123,7 @@
           "heading_W9tTLy": {
             "type": "heading",
             "settings": {
-              "title": "Build your Subscription Box",
+              "title": "Help Center",
               "use_h1": false
             }
           },

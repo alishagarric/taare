@@ -30,32 +30,14 @@
           "text_kbfJMG": {
             "type": "text",
             "settings": {
-              "text": "<p><strong>1. Select your Plan:</strong> Choose how often you need a new pair.</p><p><strong>2. Pick your Shoes:</strong> Pick the style and size for the next box (we'll alert you over text and email when it's time to pick).</p><p><strong>3. Get the box:</strong> We ship your kid's box to your doorstep.</p>",
-              "enlarge_text": false
-            }
-          },
-          "button_Ck6ict": {
-            "type": "button",
-            "disabled": true,
-            "settings": {
-              "button_label": "Build your subscription box",
-              "button_link": "",
-              "button_style": "primary"
-            }
-          },
-          "text_w7b8rQ": {
-            "type": "text",
-            "settings": {
-              "text": "",
+              "text": "<p><strong>1. Pick your box:</strong> Choose the number of pairs and a delivery schedule (every 4 or 6 months) that fits your child's needs. </p><p><strong>2. Pick your shoes:</strong> Select the shoe size and styles for the first box. You'll customize future boxes later (we'll alert you over text and email when it's time).</p><p><strong>3. Pay-as-you-go:</strong> You only pay for the next box. You'll pay for future boxes later as they ship.</p>",
               "enlarge_text": false
             }
           }
         },
         "block_order": [
           "heading_efCwfR",
-          "text_kbfJMG",
-          "button_Ck6ict",
-          "text_w7b8rQ"
+          "text_kbfJMG"
         ],
         "settings": {
           "image": "shopify://shop_images/Shoe_Collage_2.png",
@@ -64,23 +46,6 @@
           "image_position": "left",
           "text_alignment": "left",
           "color_scheme": "default"
-        }
-      },
-      "custom_liquid_pacWTy": {
-        "type": "custom-liquid",
-        "settings": {
-          "full_width": false,
-          "show_space": true,
-          "code": "<div data-smartrr-modal-cta>\n  <span>Build Your Subscription Box</span>\n</div>"
-        }
-      },
-      "custom_liquid_Bp3jL8": {
-        "type": "custom-liquid",
-        "disabled": true,
-        "settings": {
-          "full_width": true,
-          "show_space": true,
-          "code": "<div id=\"shopify-section-template--23814444253486__multi_column_TAKKgq\" class=\"shopify-section section-multi-column\" data-shopify-editor-section=\"{&quot;id&quot;:&quot;template--23814444253486__multi_column_TAKKgq&quot;,&quot;type&quot;:&quot;multi-column&quot;,&quot;disabled&quot;:false}\"><div id=\"section-id-template--23814444253486__multi_column_TAKKgq\" class=\"use-color-scheme use-color-scheme--2 fully-padded-row--medium\">\n  <style data-shopify=\"\" data-shopify-editor=\"{&quot;accessedSettings&quot;:[{&quot;id&quot;:&quot;media_width&quot;,&quot;section_id&quot;:&quot;template--23814444253486__multi_column_TAKKgq&quot;}],&quot;filteredColorSettings&quot;:[]}\">\n  :root {  }\n  \n    #section-id-template--23814444253486__multi_column_TAKKgq .text-column__image {\n      max-width: 370px;\n    }\n  \n</style>\n\n\n  <div class=\"container\">\n    \n      <h2 class=\"hometitle h4 align-center\">Choose your Plan. First box ships Feb 1st, 2025.</h2>\n    \n\n    <div class=\"flexible-layout flexible-layout--variable-columns align-ltr-center\">\n      \n<div id=\"block-id-text_block_Na3TLz\" class=\"column text-column fade-in-up\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;template--23814444253486__multi_column_TAKKgq__text_block_Na3TLz&quot;,&quot;domId&quot;:&quot;text_block_Na3TLz&quot;,&quot;type&quot;:&quot;text_block&quot;}\">\n          \n            <div class=\"text-column__image lightly-spaced-row\"><a href=\"/products/subscription-box-1-pair\"><div class=\"img-ar img-ar--cover\" style=\"--aspect-ratio: 0.4296875\">\n<img src=\"//cdn.shopify.com/s/files/1/0883/8561/8222/files/taare-subscription-1-pair-box_7d8fb6f9-25fe-476b-a287-f158a0aad23f.png?v=1732638866&amp;width=550\" alt=\"\" srcset=\"//cdn.shopify.com/s/files/1/0883/8561/8222/files/taare-subscription-1-pair-box_7d8fb6f9-25fe-476b-a287-f158a0aad23f.png?v=1732638866&amp;width=370 370w\" width=\"550\" height=\"1280\" loading=\"lazy\" sizes=\"370px\" class=\"theme-img\"></div>\n</a></div>\n <!-- ### 1 Pair Smartrr Button ### -->\n            <div data-smartrr-modal-cta data-smartrr-chosen-pack=\"MSBQYWly\">\n   <span>Select Plan</span>\n</div>\n          \n        </div>\n      \n<div id=\"block-id-text_block_YiiCJb\" class=\"column text-column fade-in-up\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;template--23814444253486__multi_column_TAKKgq__text_block_YiiCJb&quot;,&quot;domId&quot;:&quot;text_block_YiiCJb&quot;,&quot;type&quot;:&quot;text_block&quot;}\">\n          \n            <div class=\"text-column__image lightly-spaced-row\"><a href=\"/products/subscription-box-2-pairs\"><div class=\"img-ar img-ar--cover\" style=\"--aspect-ratio: 0.4296875\">\n<img src=\"//cdn.shopify.com/s/files/1/0883/8561/8222/files/taare-susbcription-2-pair-box.png?v=1732638885&amp;width=550\" alt=\"\" srcset=\"//cdn.shopify.com/s/files/1/0883/8561/8222/files/taare-susbcription-2-pair-box.png?v=1732638885&amp;width=370 370w\" width=\"550\" height=\"1280\" loading=\"lazy\" sizes=\"370px\" class=\"theme-img\"></div>\n</a></div>\n          \n  <!-- ### 2 Pairs Smartrr Button ### -->         \n   <div data-smartrr-modal-cta data-smartrr-chosen-pack=\"MiBQYWlycw==\">\n   <span>Select Plan</span>\n</div>\n          \n        </div>\n      \n<div id=\"block-id-text_block_VKPRhU\" class=\"column text-column fade-in-up\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;template--23814444253486__multi_column_TAKKgq__text_block_VKPRhU&quot;,&quot;domId&quot;:&quot;text_block_VKPRhU&quot;,&quot;type&quot;:&quot;text_block&quot;}\">\n          \n            <div class=\"text-column__image lightly-spaced-row\"><a href=\"/products/subscription-box-3-pairs\"><div class=\"img-ar img-ar--cover\" style=\"--aspect-ratio: 0.4296875\">\n<img src=\"//cdn.shopify.com/s/files/1/0883/8561/8222/files/taare-subscription-3-pair-box_e4e463be-c67d-42b7-b3d5-d86af380169d.png?v=1732638914&amp;width=550\" alt=\"\" srcset=\"//cdn.shopify.com/s/files/1/0883/8561/8222/files/taare-subscription-3-pair-box_e4e463be-c67d-42b7-b3d5-d86af380169d.png?v=1732638914&amp;width=370 370w\" width=\"550\" height=\"1280\" loading=\"lazy\" sizes=\"370px\" class=\"theme-img\"></div>\n</a></div>  \n <!-- ### 3 Pairs Smartrr Button ### -->\n           \n              <div data-smartrr-modal-cta data-smartrr-chosen-pack=\"MyBQYWlycw==\">\n   <span>Select Plan</span>\n</div>\n            </div>    \n    </div>\n  </div>\n</div>\n</div>"
         }
       },
       "multi_column_TAKKgq": {
@@ -195,9 +160,60 @@
           "text_block_RekVLr"
         ],
         "settings": {
-          "title": "Our Launch Collection",
+          "title": "Styles in our Premium Subscription Box",
           "media_aspect_ratio": "s",
           "media_width": 180,
+          "text_alignment": "center",
+          "button_style": "primary",
+          "color_scheme": "default"
+        }
+      },
+      "multi_column_DKLEer": {
+        "type": "multi-column",
+        "blocks": {
+          "text_block_AnUUM3": {
+            "type": "text_block",
+            "settings": {
+              "enable_media": true,
+              "image": "shopify://shop_images/taare-subscription-1-pair-thumbnail.png",
+              "title": "Save $5 per pair",
+              "text": "<p>And we'll donate 1 pair for each box.</p>",
+              "button_label": "Start Customizing",
+              "link": "shopify://products/subscription-box-1-pair"
+            }
+          },
+          "text_block_U9Ch9h": {
+            "type": "text_block",
+            "settings": {
+              "enable_media": true,
+              "image": "shopify://shop_images/taare_subscription_2_pair_thumbnail.png",
+              "title": "Save $10 per pair",
+              "text": "<p>And we'll donate 2 pairs for each box.</p>",
+              "button_label": "Start Customizing",
+              "link": "shopify://products/subscription-box-2-pairs"
+            }
+          },
+          "text_block_DYTHfz": {
+            "type": "text_block",
+            "settings": {
+              "enable_media": true,
+              "image": "shopify://shop_images/taare-subscription-3-pair-thumbnail.png",
+              "title": "Save $15 per pair",
+              "text": "<p>And we'll donate 3 pairs for each box.</p>",
+              "button_label": "Start Customizing",
+              "link": "shopify://products/subscription-box-3-pairs"
+            }
+          }
+        },
+        "block_order": [
+          "text_block_AnUUM3",
+          "text_block_U9Ch9h",
+          "text_block_DYTHfz"
+        ],
+        "settings": {
+          "title": "Pick your box size",
+          "media_aspect_ratio": "s",
+          "media_width": 700,
           "text_alignment": "center",
           "button_style": "primary",
           "color_scheme": "default"
@@ -207,11 +223,10 @@
     "order": [
       "main",
       "image_with_text_4ciMxm",
-      "custom_liquid_pacWTy",
-      "custom_liquid_Bp3jL8",
       "multi_column_TAKKgq",
       "product_list_xPYHWJ",
-      "multi_column_3UT8dN"
+      "multi_column_3UT8dN",
+      "multi_column_DKLEer"
     ]
   }
   

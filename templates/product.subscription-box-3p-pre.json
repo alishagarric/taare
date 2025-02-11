@@ -1,1 +1,726 @@
-{"sections":{"main":{"type":"main-product","blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{"show_tax_and_shipping":false,"enable_product_reviews_by_price":false}},"divider_VKDabt":{"type":"divider","settings":{"show_in_quickbuy":false}},"richtext_4ADPYt":{"type":"richtext","settings":{"richtext":"<p>3 pairs of premium kids’ shoes delivered every 4 or 6 months to meet your growing child's needs. Unlock exclusive rewards and 60-day return period. Pause or cancel anytime.<\/p>","icon":"","icon_size":"small","enable_box":false,"box_color":"#e0f4d5","show_in_quickbuy":false}},"divider_f464De":{"type":"divider","settings":{"show_in_quickbuy":false}},"text_7FMUV9":{"type":"text","settings":{"text":"Switch shoe styles and sizes across boxes (or keep it same).","icon":"box","icon_size":"small","enable_box":false,"box_color":"#e0f4d5","show_in_quickbuy":false}},"text_qCTWfW":{"type":"text","settings":{"text":"Save $15 per pair with 3-pair subscription (each pair costs $80)","icon":"dollar_sign","icon_size":"small","enable_box":false,"box_color":"#e0f4d5","show_in_quickbuy":false}},"text_pNEDHd":{"type":"text","settings":{"text":"Pay for the first box now. Pay for other boxes when they ship based on your schedule.","icon":"credit_card","icon_size":"small","enable_box":false,"box_color":"#e0f4d5","show_in_quickbuy":false}},"text_hyekDY":{"type":"text","settings":{"text":"First box ships by March 1st, 2025.","icon":"eye","icon_size":"small","enable_box":false,"box_color":"#e0f4d5","show_in_quickbuy":false}},"accordion_9X8wHL":{"type":"accordion","settings":{"title":"Shipping & Returns","icon":"truck","content":"<p>Free shipping and returns. <\/p><p>Return period: 30 days for one-time purchases. 60 days for subscription purchases.<\/p>","page":"","custom_liquid":"","open":false,"show_in_quickbuy":false}},"accordion_CfdM7c":{"type":"accordion","settings":{"title":"Size Guide","icon":"ruler","content":"<p>Regular fit. True to size.<\/p><p>Need help finding the perfect size? Check our <a href=\"\/pages\/sizing-guide\" title=\"Sizing Guide\">sizing guide<\/a>.<\/p>","page":"","custom_liquid":"","open":false,"show_in_quickbuy":false}},"vendor":{"type":"vendor","disabled":true,"settings":{}},"divider":{"type":"divider","disabled":true,"settings":{"show_in_quickbuy":false}},"variant-picker":{"type":"variant-picker","settings":{"show_single":false,"selector_style":"listed","dynamic_availability":"show","enable_size_chart":true,"size_chart_label":"Size guide","size_chart_variant":"Size Guide","size_chart_page":"size-chart"}},"buy-buttons":{"type":"buy-buttons","settings":{"show_quantity_selector":false,"enable_payment_button":true,"show_backorder_text":false,"show_pickup_availability":false,"show_gift_card_recipient":false}}},"block_order":["title","price","divider_VKDabt","richtext_4ADPYt","divider_f464De","text_7FMUV9","text_qCTWfW","text_pNEDHd","text_hyekDY","accordion_9X8wHL","accordion_CfdM7c","vendor","divider","variant-picker","buy-buttons"],"settings":{"show_breadcrumbs":true,"select_first_variant":true,"show_location_underneath":false,"inventory_transfers_enable":true,"enable_sticky_columns":true,"enable_sticky_atc":false,"sticky_atc_position":"end","sticky_atc_mobile":true,"sticky_atc_behavior":"add_to_cart","sticky_atc_button_style":"secondary","gallery_size":"medium","gallery_layout":"carousel-under","enable_zoom":true,"show_alt_text":false,"alt_text_icon":"","enable_video_autoplay":false,"enable_video_looping":false,"enable_media_grouping":true,"media_grouping_option":"Color,Colour,Couleur,Farbe"}},"rich_text_BkCJWd":{"type":"rich-text","blocks":{"heading_e9cnnE":{"type":"heading","settings":{"title":"","use_h1":false}},"text_N7NWAz":{"type":"text","settings":{"text":"<p>MORE ABOUT OUR STYLES<\/p>","enlarge_text":true}}},"block_order":["heading_e9cnnE","text_N7NWAz"],"settings":{"height":"small","text_alignment":"center","full_width":false,"color_scheme":"1"}},"multi_column_gn7X6L":{"type":"multi-column","blocks":{"text_block_HBTXRL":{"type":"text_block","settings":{"enable_media":true,"image":"shopify:\/\/shop_images\/1_cffa6615-db7a-4cc4-a45a-8a9097678c75.png","title":"","text":"<p>We have redefined what it means to walk on clouds. Created just for kids, Aquila Altair is a striking monochrome sneaker that combines sleek design and bold accents with the ultimate comfort.<\/p>","button_label":"","link":""}},"text_block_ycMiPr":{"type":"text_block","settings":{"enable_media":true,"image":"shopify:\/\/shop_images\/2_27430ee3-d0a5-43c0-849e-61fc603000e2.png","title":"","text":"<p>With the Pavo Alpha, we have reimagined kids sneakers. Designed with vibrant hues and playful patterns, the sneaker combines bold colors with premium materials to allow your child step out in style and show off their unique flair. <\/p><p><\/p>","button_label":"","link":""}},"text_block_4mmcdw":{"type":"text_block","settings":{"enable_media":true,"image":"shopify:\/\/shop_images\/3_2709a1ec-db91-4dc4-bb9c-a2d6e372c984.png","title":"","text":"<p>The Cygnus classic sneakers, named after the graceful swan constellation, blends comfort and style and offers a timeless classic. Crafted with premium materials and meticulous attention to detail, this classic is the perfect choice for everyday comfortable and elegant wear.<\/p>","button_label":"","link":""}}},"block_order":["text_block_HBTXRL","text_block_ycMiPr","text_block_4mmcdw"],"disabled":true,"settings":{"title":"OUR LAUNCH COLLECTION","media_aspect_ratio":"s","media_width":700,"text_alignment":"center","button_style":"primary","color_scheme":"default"}},"hotspots_VdPiWh":{"type":"hotspots","blocks":{"hotspot_nFEwaA":{"type":"hotspot","settings":{"hotspot_x":47,"hotspot_y":44,"hotspot_x_mobile":50,"hotspot_y_mobile":50,"heading":"Easy Closures","text":"<p>Easy closure with a hook-and-loop strap to create a wide opening for easy-on and easy-off. A no-tie lacing system to keep them active and on the go<\/p>","icon":"","icon_width":32}},"hotspot_HBcRAj":{"type":"hotspot","settings":{"hotspot_x":35,"hotspot_y":64,"hotspot_x_mobile":50,"hotspot_y_mobile":50,"heading":"Super Cushion","text":"<p>Super cushioned mid-sole with a grippy rubber outsole to ensure that the spring in those feet stay consistent all day long<\/p>","icon":"","icon_width":32}},"hotspot_JWKypL":{"type":"hotspot","settings":{"hotspot_x":26,"hotspot_y":31,"hotspot_x_mobile":50,"hotspot_y_mobile":50,"heading":"Heel Tab","text":"<p>Heel tab to help little ones with easy sliding their feet into the shoes<\/p>","icon":"","icon_width":32}},"hotspot_iKcDYx":{"type":"hotspot","settings":{"hotspot_x":74,"hotspot_y":57,"hotspot_x_mobile":50,"hotspot_y_mobile":50,"heading":"Protecting the play","text":"<p>Added reinforcements to help with wear and tear and protect those precious toes.<\/p>","icon":"","icon_width":32}}},"block_order":["hotspot_nFEwaA","hotspot_HBcRAj","hotspot_JWKypL","hotspot_iKcDYx"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/12_562749af-0e94-49b5-a513-d76b9de81977.png","hotspot_color":"#b61d0f","button_content":"plus","outer_circle":"pulse","full_width":true,"text_alignment":"top left","overlay_style":"shadow","subheading":"Discover what makes our shoes special","title":"Explore the Tech","use_h1":false,"heading_max_width":10,"text":"","button_1_label":"","button_1_link":"","button_1_style":"secondary","button_2_label":"","button_2_link":"","button_2_style":"primary"}},"hotspots_e79T4F":{"type":"hotspots","blocks":{"hotspot_Lki4Jx":{"type":"hotspot","settings":{"hotspot_x":48,"hotspot_y":34,"hotspot_x_mobile":50,"hotspot_y_mobile":50,"heading":"Premium Insole and Lining","text":"<p>A 100% textile lining and cushioned insole for that <\/p>","icon":"","icon_width":32}},"hotspot_eRbP8H":{"type":"hotspot","settings":{"hotspot_x":47,"hotspot_y":81,"hotspot_x_mobile":50,"hotspot_y_mobile":50,"heading":"Premium Uppers","text":"<p>Soft premium uppers to help those feet stay comfortable and fresh all day long.<\/p>","icon":"","icon_width":32}}},"block_order":["hotspot_Lki4Jx","hotspot_eRbP8H"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/13.png","hotspot_color":"#b61d0f","button_content":"plus","outer_circle":"pulse","full_width":true,"text_alignment":"top left","overlay_style":"shadow","subheading":"","title":"","use_h1":false,"heading_max_width":10,"text":"","button_1_label":"","button_1_link":"","button_1_style":"secondary","button_2_label":"","button_2_link":"","button_2_style":"primary"}},"key_features_RrEy8b":{"type":"key-features","blocks":{"feature_aJCKAF":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/IBS06265_451aad6a-bedd-407b-9454-6cb5d9c62164.jpg","bg_color":"#e3e3e3","bg_gradient":"","text_color":"#505050","heading":"Easy closure","text":"<p>The Aquila and Pavo styles come with a no-tie lacing system to keep the kids active and on the go. The hook-and-loop strap created a wide opening for easy-on and easy-off and the heel tab allows easy sliding of feet into the shoes<\/p>","show_segments":true,"segments":4,"active_segment":"1","fill_segments":true,"show_labels":true,"label_left":"","label_middle":"","label_right":"","show_icon":false,"icon":"award"}},"feature_dCDQEy":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/4_2d2404c3-ba7c-450f-994f-d8ef1ad2cc05.png","bg_color":"#e3e3e3","bg_gradient":"","text_color":"#505050","heading":"A Striking Design","text":"<p>If you prefer classics, check out Cygnus. Designed with both functionality and style in mind, the Cygnus series offers a classic laced look that’s easy for growing kids to manage. These shoes provide a secure fit and extra support, perfect for active little ones on the go. <\/p>","show_segments":true,"segments":4,"active_segment":"2","fill_segments":true,"show_labels":true,"label_left":"","label_middle":"","label_right":"","show_icon":false,"icon":"star"}},"feature_iRChNC":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/IBS06260_1521a939-6618-4c94-a3e8-012c88fd6b28.jpg","bg_color":"#c3c3c3","bg_gradient":"","text_color":"#505050","heading":"Super plush","text":"<p>All our shoes feature a super cushioned midsole with a rubber outsole to ensure that the spring in those feet stay consistent all day long. Our 100% textile lining and a cushioned insole adds to that walking on cloud feeling all-day for those all-day adventures.<\/p>","show_segments":true,"segments":4,"active_segment":"3","fill_segments":true,"show_labels":true,"label_left":"","label_middle":"","label_right":"","show_icon":false,"icon":"star"}},"feature_WgCbDc":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/IBS06142new.jpg","bg_color":"#e3e3e3","bg_gradient":"","text_color":"#505050","heading":"Protect the play","text":"<p>For our kids range, we have paid special attention to protection. Our shoes feature a toe cap and added reinforcements to help with wear and tear and protect those precious toes.<\/p>","show_segments":true,"segments":4,"active_segment":"4","fill_segments":true,"show_labels":true,"label_left":"","label_middle":"","label_right":"","show_icon":false,"icon":"star"}},"feature_NywqNH":{"type":"feature","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/IBS06261.jpg","bg_color":"#e3e3e3","bg_gradient":"","text_color":"#505050","heading":"A striking design","text":"<p>Whether your kids prefer classic styles, colorful palettes, or modern aesthetics, our launch collection has got you covered. <\/p><p>Designed with both functionality and style in mind, the Cygnus series offers a classic laced look that’s easy for growing kids to manage. These shoes provide a secure fit and extra support, perfect for active little ones on the go. Plus, the laces add a timeless touch to our collection, making Cygnus a favorite for parents and kids alike.<\/p>","show_segments":true,"segments":5,"active_segment":"4","fill_segments":true,"show_labels":true,"label_left":"","label_middle":"","label_right":"","show_icon":false,"icon":"star"}},"feature_ieWfzK":{"type":"feature","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Constellations.png","bg_color":"#e3e3e3","bg_gradient":"","text_color":"#505050","heading":"Name Origins","text":"<p>Our sneaker collection is named after constellations.<\/p>","show_segments":true,"segments":4,"active_segment":"4","fill_segments":true,"show_labels":true,"label_left":"","label_middle":"","label_right":"","show_icon":false,"icon":"star"}}},"block_order":["feature_aJCKAF","feature_dCDQEy","feature_iRChNC","feature_WgCbDc","feature_NywqNH","feature_ieWfzK"],"disabled":true,"settings":{"heading":"Key features","image_max_width":700,"media_aspect_ratio":"1","image_position":"left","segment_position":"over-text"}},"related-products":{"type":"related-products","disabled":true,"settings":{"title":"You may also like","show_vendor":false,"grid":4}},"product_template_product_list_eNWyTc":{"type":"product-template-product-list","disabled":true,"settings":{"title":"Product list","product_list":["aquila-altair","cygnus-deneb","pavo-alpha"],"hide_if_empty":false,"show_vendor":false,"enable_carousel":true,"grid":3,"color_scheme":"default","full_width":true}},"featured_product_WGYcBc":{"type":"featured-product","blocks":{"title_ygdDiE":{"type":"title","settings":{}},"divider_P6Xpnj":{"type":"divider","settings":{}},"description_YMd8jn":{"type":"description","settings":{"show_in_tab":false,"open_tab":false,"icon":""}}},"block_order":["title_ygdDiE","divider_P6Xpnj","description_YMd8jn"],"settings":{"product":"aquila-altair","select_first_variant":true,"inventory_transfers_enable":true,"enable_sticky_columns":false,"gallery_size":"medium","gallery_layout":"carousel-under","enable_zoom":true,"show_alt_text":false,"alt_text_icon":"","enable_video_autoplay":false,"enable_video_looping":false,"enable_media_grouping":false,"media_grouping_option":"Color,Colour,Couleur,Farbe"}},"featured_product_FNqRfg":{"type":"featured-product","blocks":{"title_zRKVtK":{"type":"title","settings":{}},"divider_fHtfCR":{"type":"divider","settings":{}},"description_k3r6GT":{"type":"description","settings":{"show_in_tab":false,"open_tab":false,"icon":""}}},"block_order":["title_zRKVtK","divider_fHtfCR","description_k3r6GT"],"settings":{"product":"cygnus-deneb","select_first_variant":true,"inventory_transfers_enable":true,"enable_sticky_columns":false,"gallery_size":"medium","gallery_layout":"carousel-under","enable_zoom":true,"show_alt_text":false,"alt_text_icon":"","enable_video_autoplay":false,"enable_video_looping":false,"enable_media_grouping":false,"media_grouping_option":"Color,Colour,Couleur,Farbe"}},"featured_product_NW4zGN":{"type":"featured-product","blocks":{"title_VPMbBy":{"type":"title","settings":{}},"divider_bBnNL3":{"type":"divider","settings":{}},"description_zePd7q":{"type":"description","settings":{"show_in_tab":false,"open_tab":false,"icon":""}}},"block_order":["title_VPMbBy","divider_bBnNL3","description_zePd7q"],"settings":{"product":"pavo-alpha","select_first_variant":true,"inventory_transfers_enable":true,"enable_sticky_columns":false,"gallery_size":"medium","gallery_layout":"carousel-under","enable_zoom":true,"show_alt_text":false,"alt_text_icon":"","enable_video_autoplay":false,"enable_video_looping":false,"enable_media_grouping":false,"media_grouping_option":"Color,Colour,Couleur,Farbe"}}},"order":["main","rich_text_BkCJWd","multi_column_gn7X6L","hotspots_VdPiWh","hotspots_e79T4F","key_features_RrEy8b","related-products","product_template_product_list_eNWyTc","featured_product_WGYcBc","featured_product_FNqRfg","featured_product_NW4zGN"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+    "sections": {
+      "main": {
+        "type": "main-product",
+        "blocks": {
+          "title": {
+            "type": "title",
+            "settings": {}
+          },
+          "price": {
+            "type": "price",
+            "settings": {
+              "show_tax_and_shipping": false,
+              "enable_product_reviews_by_price": false
+            }
+          },
+          "divider_VKDabt": {
+            "type": "divider",
+            "settings": {
+              "show_in_quickbuy": false
+            }
+          },
+          "richtext_4ADPYt": {
+            "type": "richtext",
+            "settings": {
+              "richtext": "<p>3 pairs of premium kids’ shoes delivered every 4 or 6 months to meet your growing child's needs. Unlock exclusive rewards and 60-day return period. Pause or cancel anytime.</p>",
+              "icon": "",
+              "icon_size": "small",
+              "enable_box": false,
+              "box_color": "#e0f4d5",
+              "show_in_quickbuy": false
+            }
+          },
+          "divider_f464De": {
+            "type": "divider",
+            "settings": {
+              "show_in_quickbuy": false
+            }
+          },
+          "text_7FMUV9": {
+            "type": "text",
+            "settings": {
+              "text": "Switch shoe styles and sizes across boxes (or keep it same).",
+              "icon": "box",
+              "icon_size": "small",
+              "enable_box": false,
+              "box_color": "#e0f4d5",
+              "show_in_quickbuy": false
+            }
+          },
+          "text_qCTWfW": {
+            "type": "text",
+            "settings": {
+              "text": "Save $15 per pair with 3-pair subscription (each pair costs $80)",
+              "icon": "dollar_sign",
+              "icon_size": "small",
+              "enable_box": false,
+              "box_color": "#e0f4d5",
+              "show_in_quickbuy": false
+            }
+          },
+          "text_pNEDHd": {
+            "type": "text",
+            "settings": {
+              "text": "Pay for the first box now. Pay for other boxes when they ship based on your schedule.",
+              "icon": "credit_card",
+              "icon_size": "small",
+              "enable_box": false,
+              "box_color": "#e0f4d5",
+              "show_in_quickbuy": false
+            }
+          },
+          "text_hyekDY": {
+            "type": "text",
+            "settings": {
+              "text": "First box ships by March 1st, 2025.",
+              "icon": "eye",
+              "icon_size": "small",
+              "enable_box": false,
+              "box_color": "#e0f4d5",
+              "show_in_quickbuy": false
+            }
+          },
+          "accordion_9X8wHL": {
+            "type": "accordion",
+            "settings": {
+              "title": "Shipping & Returns",
+              "icon": "truck",
+              "content": "<p>Free shipping and returns. </p><p>Return period: 30 days for one-time purchases. 60 days for subscription purchases.</p>",
+              "page": "",
+              "custom_liquid": "",
+              "open": false,
+              "show_in_quickbuy": false
+            }
+          },
+          "accordion_CfdM7c": {
+            "type": "accordion",
+            "settings": {
+              "title": "Size Guide",
+              "icon": "ruler",
+              "content": "<p>Regular fit. True to size.</p><p>Need help finding the perfect size? Check our <a href=\"/pages/sizing-guide\" title=\"Sizing Guide\">sizing guide</a>.</p>",
+              "page": "",
+              "custom_liquid": "",
+              "open": false,
+              "show_in_quickbuy": false
+            }
+          },
+          "vendor": {
+            "type": "vendor",
+            "disabled": true,
+            "settings": {}
+          },
+          "divider": {
+            "type": "divider",
+            "disabled": true,
+            "settings": {
+              "show_in_quickbuy": false
+            }
+          },
+          "variant-picker": {
+            "type": "variant-picker",
+            "settings": {
+              "show_single": false,
+              "selector_style": "listed",
+              "dynamic_availability": "show",
+              "enable_size_chart": true,
+              "size_chart_label": "Size guide",
+              "size_chart_variant": "Size Guide",
+              "size_chart_page": "size-chart"
+            }
+          },
+          "buy-buttons": {
+            "type": "buy-buttons",
+            "settings": {
+              "show_quantity_selector": false,
+              "enable_payment_button": true,
+              "show_backorder_text": false,
+              "show_pickup_availability": false,
+              "show_gift_card_recipient": false
+            }
+          }
+        },
+        "block_order": [
+          "title",
+          "price",
+          "divider_VKDabt",
+          "richtext_4ADPYt",
+          "divider_f464De",
+          "text_7FMUV9",
+          "text_qCTWfW",
+          "text_pNEDHd",
+          "text_hyekDY",
+          "accordion_9X8wHL",
+          "accordion_CfdM7c",
+          "vendor",
+          "divider",
+          "variant-picker",
+          "buy-buttons"
+        ],
+        "settings": {
+          "show_breadcrumbs": true,
+          "select_first_variant": true,
+          "show_location_underneath": false,
+          "inventory_transfers_enable": true,
+          "enable_sticky_columns": true,
+          "enable_sticky_atc": false,
+          "sticky_atc_position": "end",
+          "sticky_atc_mobile": true,
+          "sticky_atc_behavior": "add_to_cart",
+          "sticky_atc_button_style": "secondary",
+          "gallery_size": "medium",
+          "gallery_layout": "carousel-under",
+          "enable_zoom": true,
+          "show_alt_text": false,
+          "alt_text_icon": "",
+          "enable_video_autoplay": false,
+          "enable_video_looping": false,
+          "enable_media_grouping": true,
+          "media_grouping_option": "Color,Colour,Couleur,Farbe"
+        }
+      },
+      "rich_text_BkCJWd": {
+        "type": "rich-text",
+        "blocks": {
+          "heading_e9cnnE": {
+            "type": "heading",
+            "settings": {
+              "title": "",
+              "use_h1": false
+            }
+          },
+          "text_N7NWAz": {
+            "type": "text",
+            "settings": {
+              "text": "<p>MORE ABOUT OUR STYLES</p>",
+              "enlarge_text": true
+            }
+          }
+        },
+        "block_order": [
+          "heading_e9cnnE",
+          "text_N7NWAz"
+        ],
+        "settings": {
+          "height": "small",
+          "text_alignment": "center",
+          "full_width": false,
+          "color_scheme": "1"
+        }
+      },
+      "multi_column_gn7X6L": {
+        "type": "multi-column",
+        "blocks": {
+          "text_block_HBTXRL": {
+            "type": "text_block",
+            "settings": {
+              "enable_media": true,
+              "image": "shopify://shop_images/1_cffa6615-db7a-4cc4-a45a-8a9097678c75.png",
+              "title": "",
+              "text": "<p>We have redefined what it means to walk on clouds. Created just for kids, Aquila Altair is a striking monochrome sneaker that combines sleek design and bold accents with the ultimate comfort.</p>",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "text_block_ycMiPr": {
+            "type": "text_block",
+            "settings": {
+              "enable_media": true,
+              "image": "shopify://shop_images/2_27430ee3-d0a5-43c0-849e-61fc603000e2.png",
+              "title": "",
+              "text": "<p>With the Pavo Alpha, we have reimagined kids sneakers. Designed with vibrant hues and playful patterns, the sneaker combines bold colors with premium materials to allow your child step out in style and show off their unique flair. </p><p></p>",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "text_block_4mmcdw": {
+            "type": "text_block",
+            "settings": {
+              "enable_media": true,
+              "image": "shopify://shop_images/3_2709a1ec-db91-4dc4-bb9c-a2d6e372c984.png",
+              "title": "",
+              "text": "<p>The Cygnus classic sneakers, named after the graceful swan constellation, blends comfort and style and offers a timeless classic. Crafted with premium materials and meticulous attention to detail, this classic is the perfect choice for everyday comfortable and elegant wear.</p>",
+              "button_label": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_block_HBTXRL",
+          "text_block_ycMiPr",
+          "text_block_4mmcdw"
+        ],
+        "disabled": true,
+        "settings": {
+          "title": "OUR LAUNCH COLLECTION",
+          "media_aspect_ratio": "s",
+          "media_width": 700,
+          "text_alignment": "center",
+          "button_style": "primary",
+          "color_scheme": "default"
+        }
+      },
+      "hotspots_VdPiWh": {
+        "type": "hotspots",
+        "blocks": {
+          "hotspot_nFEwaA": {
+            "type": "hotspot",
+            "settings": {
+              "hotspot_x": 47,
+              "hotspot_y": 44,
+              "hotspot_x_mobile": 50,
+              "hotspot_y_mobile": 50,
+              "heading": "Easy Closures",
+              "text": "<p>Easy closure with a hook-and-loop strap to create a wide opening for easy-on and easy-off. A no-tie lacing system to keep them active and on the go</p>",
+              "icon": "",
+              "icon_width": 32
+            }
+          },
+          "hotspot_HBcRAj": {
+            "type": "hotspot",
+            "settings": {
+              "hotspot_x": 35,
+              "hotspot_y": 64,
+              "hotspot_x_mobile": 50,
+              "hotspot_y_mobile": 50,
+              "heading": "Super Cushion",
+              "text": "<p>Super cushioned mid-sole with a grippy rubber outsole to ensure that the spring in those feet stay consistent all day long</p>",
+              "icon": "",
+              "icon_width": 32
+            }
+          },
+          "hotspot_JWKypL": {
+            "type": "hotspot",
+            "settings": {
+              "hotspot_x": 26,
+              "hotspot_y": 31,
+              "hotspot_x_mobile": 50,
+              "hotspot_y_mobile": 50,
+              "heading": "Heel Tab",
+              "text": "<p>Heel tab to help little ones with easy sliding their feet into the shoes</p>",
+              "icon": "",
+              "icon_width": 32
+            }
+          },
+          "hotspot_iKcDYx": {
+            "type": "hotspot",
+            "settings": {
+              "hotspot_x": 74,
+              "hotspot_y": 57,
+              "hotspot_x_mobile": 50,
+              "hotspot_y_mobile": 50,
+              "heading": "Protecting the play",
+              "text": "<p>Added reinforcements to help with wear and tear and protect those precious toes.</p>",
+              "icon": "",
+              "icon_width": 32
+            }
+          }
+        },
+        "block_order": [
+          "hotspot_nFEwaA",
+          "hotspot_HBcRAj",
+          "hotspot_JWKypL",
+          "hotspot_iKcDYx"
+        ],
+        "disabled": true,
+        "settings": {
+          "image": "shopify://shop_images/12_562749af-0e94-49b5-a513-d76b9de81977.png",
+          "hotspot_color": "#b61d0f",
+          "button_content": "plus",
+          "outer_circle": "pulse",
+          "full_width": true,
+          "text_alignment": "top left",
+          "overlay_style": "shadow",
+          "subheading": "Discover what makes our shoes special",
+          "title": "Explore the Tech",
+          "use_h1": false,
+          "heading_max_width": 10,
+          "text": "",
+          "button_1_label": "",
+          "button_1_link": "",
+          "button_1_style": "secondary",
+          "button_2_label": "",
+          "button_2_link": "",
+          "button_2_style": "primary"
+        }
+      },
+      "hotspots_e79T4F": {
+        "type": "hotspots",
+        "blocks": {
+          "hotspot_Lki4Jx": {
+            "type": "hotspot",
+            "settings": {
+              "hotspot_x": 48,
+              "hotspot_y": 34,
+              "hotspot_x_mobile": 50,
+              "hotspot_y_mobile": 50,
+              "heading": "Premium Insole and Lining",
+              "text": "<p>A 100% textile lining and cushioned insole for that </p>",
+              "icon": "",
+              "icon_width": 32
+            }
+          },
+          "hotspot_eRbP8H": {
+            "type": "hotspot",
+            "settings": {
+              "hotspot_x": 47,
+              "hotspot_y": 81,
+              "hotspot_x_mobile": 50,
+              "hotspot_y_mobile": 50,
+              "heading": "Premium Uppers",
+              "text": "<p>Soft premium uppers to help those feet stay comfortable and fresh all day long.</p>",
+              "icon": "",
+              "icon_width": 32
+            }
+          }
+        },
+        "block_order": [
+          "hotspot_Lki4Jx",
+          "hotspot_eRbP8H"
+        ],
+        "disabled": true,
+        "settings": {
+          "image": "shopify://shop_images/13.png",
+          "hotspot_color": "#b61d0f",
+          "button_content": "plus",
+          "outer_circle": "pulse",
+          "full_width": true,
+          "text_alignment": "top left",
+          "overlay_style": "shadow",
+          "subheading": "",
+          "title": "",
+          "use_h1": false,
+          "heading_max_width": 10,
+          "text": "",
+          "button_1_label": "",
+          "button_1_link": "",
+          "button_1_style": "secondary",
+          "button_2_label": "",
+          "button_2_link": "",
+          "button_2_style": "primary"
+        }
+      },
+      "key_features_RrEy8b": {
+        "type": "key-features",
+        "blocks": {
+          "feature_aJCKAF": {
+            "type": "feature",
+            "settings": {
+              "image": "shopify://shop_images/IBS06265_451aad6a-bedd-407b-9454-6cb5d9c62164.jpg",
+              "bg_color": "#e3e3e3",
+              "bg_gradient": "",
+              "text_color": "#505050",
+              "heading": "Easy closure",
+              "text": "<p>The Aquila and Pavo styles come with a no-tie lacing system to keep the kids active and on the go. The hook-and-loop strap created a wide opening for easy-on and easy-off and the heel tab allows easy sliding of feet into the shoes</p>",
+              "show_segments": true,
+              "segments": 4,
+              "active_segment": "1",
+              "fill_segments": true,
+              "show_labels": true,
+              "label_left": "",
+              "label_middle": "",
+              "label_right": "",
+              "show_icon": false,
+              "icon": "award"
+            }
+          },
+          "feature_dCDQEy": {
+            "type": "feature",
+            "settings": {
+              "image": "shopify://shop_images/4_2d2404c3-ba7c-450f-994f-d8ef1ad2cc05.png",
+              "bg_color": "#e3e3e3",
+              "bg_gradient": "",
+              "text_color": "#505050",
+              "heading": "A Striking Design",
+              "text": "<p>If you prefer classics, check out Cygnus. Designed with both functionality and style in mind, the Cygnus series offers a classic laced look that’s easy for growing kids to manage. These shoes provide a secure fit and extra support, perfect for active little ones on the go. </p>",
+              "show_segments": true,
+              "segments": 4,
+              "active_segment": "2",
+              "fill_segments": true,
+              "show_labels": true,
+              "label_left": "",
+              "label_middle": "",
+              "label_right": "",
+              "show_icon": false,
+              "icon": "star"
+            }
+          },
+          "feature_iRChNC": {
+            "type": "feature",
+            "settings": {
+              "image": "shopify://shop_images/IBS06260_1521a939-6618-4c94-a3e8-012c88fd6b28.jpg",
+              "bg_color": "#c3c3c3",
+              "bg_gradient": "",
+              "text_color": "#505050",
+              "heading": "Super plush",
+              "text": "<p>All our shoes feature a super cushioned midsole with a rubber outsole to ensure that the spring in those feet stay consistent all day long. Our 100% textile lining and a cushioned insole adds to that walking on cloud feeling all-day for those all-day adventures.</p>",
+              "show_segments": true,
+              "segments": 4,
+              "active_segment": "3",
+              "fill_segments": true,
+              "show_labels": true,
+              "label_left": "",
+              "label_middle": "",
+              "label_right": "",
+              "show_icon": false,
+              "icon": "star"
+            }
+          },
+          "feature_WgCbDc": {
+            "type": "feature",
+            "settings": {
+              "image": "shopify://shop_images/IBS06142new.jpg",
+              "bg_color": "#e3e3e3",
+              "bg_gradient": "",
+              "text_color": "#505050",
+              "heading": "Protect the play",
+              "text": "<p>For our kids range, we have paid special attention to protection. Our shoes feature a toe cap and added reinforcements to help with wear and tear and protect those precious toes.</p>",
+              "show_segments": true,
+              "segments": 4,
+              "active_segment": "4",
+              "fill_segments": true,
+              "show_labels": true,
+              "label_left": "",
+              "label_middle": "",
+              "label_right": "",
+              "show_icon": false,
+              "icon": "star"
+            }
+          },
+          "feature_NywqNH": {
+            "type": "feature",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/IBS06261.jpg",
+              "bg_color": "#e3e3e3",
+              "bg_gradient": "",
+              "text_color": "#505050",
+              "heading": "A striking design",
+              "text": "<p>Whether your kids prefer classic styles, colorful palettes, or modern aesthetics, our launch collection has got you covered. </p><p>Designed with both functionality and style in mind, the Cygnus series offers a classic laced look that’s easy for growing kids to manage. These shoes provide a secure fit and extra support, perfect for active little ones on the go. Plus, the laces add a timeless touch to our collection, making Cygnus a favorite for parents and kids alike.</p>",
+              "show_segments": true,
+              "segments": 5,
+              "active_segment": "4",
+              "fill_segments": true,
+              "show_labels": true,
+              "label_left": "",
+              "label_middle": "",
+              "label_right": "",
+              "show_icon": false,
+              "icon": "star"
+            }
+          },
+          "feature_ieWfzK": {
+            "type": "feature",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/Constellations.png",
+              "bg_color": "#e3e3e3",
+              "bg_gradient": "",
+              "text_color": "#505050",
+              "heading": "Name Origins",
+              "text": "<p>Our sneaker collection is named after constellations.</p>",
+              "show_segments": true,
+              "segments": 4,
+              "active_segment": "4",
+              "fill_segments": true,
+              "show_labels": true,
+              "label_left": "",
+              "label_middle": "",
+              "label_right": "",
+              "show_icon": false,
+              "icon": "star"
+            }
+          }
+        },
+        "block_order": [
+          "feature_aJCKAF",
+          "feature_dCDQEy",
+          "feature_iRChNC",
+          "feature_WgCbDc",
+          "feature_NywqNH",
+          "feature_ieWfzK"
+        ],
+        "disabled": true,
+        "settings": {
+          "heading": "Key features",
+          "image_max_width": 700,
+          "media_aspect_ratio": "1",
+          "image_position": "left",
+          "segment_position": "over-text"
+        }
+      },
+      "related-products": {
+        "type": "related-products",
+        "disabled": true,
+        "settings": {
+          "title": "You may also like",
+          "show_vendor": false,
+          "grid": 4
+        }
+      },
+      "product_template_product_list_eNWyTc": {
+        "type": "product-template-product-list",
+        "disabled": true,
+        "settings": {
+          "title": "Product list",
+          "product_list": [
+            "aquila-altair",
+            "cygnus-deneb",
+            "pavo-alpha"
+          ],
+          "hide_if_empty": false,
+          "show_vendor": false,
+          "enable_carousel": true,
+          "grid": 3,
+          "color_scheme": "default",
+          "full_width": true
+        }
+      },
+      "featured_product_WGYcBc": {
+        "type": "featured-product",
+        "blocks": {
+          "title_ygdDiE": {
+            "type": "title",
+            "settings": {}
+          },
+          "divider_P6Xpnj": {
+            "type": "divider",
+            "settings": {}
+          },
+          "description_YMd8jn": {
+            "type": "description",
+            "settings": {
+              "show_in_tab": false,
+              "open_tab": false,
+              "icon": ""
+            }
+          }
+        },
+        "block_order": [
+          "title_ygdDiE",
+          "divider_P6Xpnj",
+          "description_YMd8jn"
+        ],
+        "settings": {
+          "product": "aquila-altair",
+          "select_first_variant": true,
+          "inventory_transfers_enable": true,
+          "enable_sticky_columns": false,
+          "gallery_size": "medium",
+          "gallery_layout": "carousel-under",
+          "enable_zoom": true,
+          "show_alt_text": false,
+          "alt_text_icon": "",
+          "enable_video_autoplay": false,
+          "enable_video_looping": false,
+          "enable_media_grouping": false,
+          "media_grouping_option": "Color,Colour,Couleur,Farbe"
+        }
+      },
+      "featured_product_FNqRfg": {
+        "type": "featured-product",
+        "blocks": {
+          "title_zRKVtK": {
+            "type": "title",
+            "settings": {}
+          },
+          "divider_fHtfCR": {
+            "type": "divider",
+            "settings": {}
+          },
+          "description_k3r6GT": {
+            "type": "description",
+            "settings": {
+              "show_in_tab": false,
+              "open_tab": false,
+              "icon": ""
+            }
+          }
+        },
+        "block_order": [
+          "title_zRKVtK",
+          "divider_fHtfCR",
+          "description_k3r6GT"
+        ],
+        "settings": {
+          "product": "cygnus-deneb",
+          "select_first_variant": true,
+          "inventory_transfers_enable": true,
+          "enable_sticky_columns": false,
+          "gallery_size": "medium",
+          "gallery_layout": "carousel-under",
+          "enable_zoom": true,
+          "show_alt_text": false,
+          "alt_text_icon": "",
+          "enable_video_autoplay": false,
+          "enable_video_looping": false,
+          "enable_media_grouping": false,
+          "media_grouping_option": "Color,Colour,Couleur,Farbe"
+        }
+      },
+      "featured_product_NW4zGN": {
+        "type": "featured-product",
+        "blocks": {
+          "title_VPMbBy": {
+            "type": "title",
+            "settings": {}
+          },
+          "divider_bBnNL3": {
+            "type": "divider",
+            "settings": {}
+          },
+          "description_zePd7q": {
+            "type": "description",
+            "settings": {
+              "show_in_tab": false,
+              "open_tab": false,
+              "icon": ""
+            }
+          }
+        },
+        "block_order": [
+          "title_VPMbBy",
+          "divider_bBnNL3",
+          "description_zePd7q"
+        ],
+        "settings": {
+          "product": "pavo-alpha",
+          "select_first_variant": true,
+          "inventory_transfers_enable": true,
+          "enable_sticky_columns": false,
+          "gallery_size": "medium",
+          "gallery_layout": "carousel-under",
+          "enable_zoom": true,
+          "show_alt_text": false,
+          "alt_text_icon": "",
+          "enable_video_autoplay": false,
+          "enable_video_looping": false,
+          "enable_media_grouping": false,
+          "media_grouping_option": "Color,Colour,Couleur,Farbe"
+        }
+      }
+    },
+    "order": [
+      "main",
+      "rich_text_BkCJWd",
+      "multi_column_gn7X6L",
+      "hotspots_VdPiWh",
+      "hotspots_e79T4F",
+      "key_features_RrEy8b",
+      "related-products",
+      "product_template_product_list_eNWyTc",
+      "featured_product_WGYcBc",
+      "featured_product_FNqRfg",
+      "featured_product_NW4zGN"
+    ]
+  }
+  

@@ -31,6 +31,7 @@
           },
           "richtext_amVM6b": {
             "type": "richtext",
+            "disabled": true,
             "settings": {
               "richtext": "<p>PREORDER item. Ships Feb 1st, 2025.</p>",
               "icon": "eye",
@@ -40,38 +41,6 @@
               "show_in_quickbuy": false
             }
           },
-          "smartrr_app_block_FGnPaV": {
-            "type": "shopify://apps/smartrr/blocks/app-block/feefa72b-d730-4320-ae1b-95af6a0c861e",
-            "settings": {
-              "group_select": "radio",
-              "group_border": 1,
-              "group_border_radius": 8,
-              "group_primary_background": "#FFFFFF",
-              "group_primary_text_color": "#202223",
-              "group_border_color": "#202223",
-              "show_otp": true,
-              "otp_default": false,
-              "show_prices": false,
-              "plan_select": "dropdown",
-              "plan_border": 1,
-              "plan_border_radius": 8,
-              "show_label": true,
-              "plan_primary_background": "#FFFFFF",
-              "plan_primary_text_color": "#202223",
-              "plan_border_color": "#202223",
-              "custom_css": ""
-            }
-          },
-          "buy-buttons": {
-            "type": "buy-buttons",
-            "settings": {
-              "show_quantity_selector": true,
-              "enable_payment_button": true,
-              "show_backorder_text": false,
-              "show_pickup_availability": false,
-              "show_gift_card_recipient": false
-            }
-          },
           "vendor": {
             "type": "vendor",
             "disabled": true,
@@ -79,6 +48,7 @@
           },
           "divider": {
             "type": "divider",
+            "disabled": true,
             "settings": {
               "show_in_quickbuy": false
             }
@@ -141,12 +111,22 @@
               "size_chart_page": "size-chart"
             }
           },
+          "buy-buttons": {
+            "type": "buy-buttons",
+            "settings": {
+              "show_quantity_selector": true,
+              "enable_payment_button": true,
+              "show_backorder_text": false,
+              "show_pickup_availability": false,
+              "show_gift_card_recipient": false
+            }
+          },
           "link_GtVRKf": {
             "type": "link",
             "settings": {
               "url": "shopify://pages/subscription",
               "open_in_new_tab": false,
-              "text": "Try Our Subscription Box — save $20+ per pair, swap styles anytime, and unlock exclusive perks!",
+              "text": "Try Our Subscription Box — perfect for busy parents! Unlock exclusive perks and special pricing.",
               "style": "primary",
               "show_in_quickbuy": false
             }
@@ -157,8 +137,6 @@
           "price",
           "divider_hUtyzX",
           "richtext_amVM6b",
-          "smartrr_app_block_FGnPaV",
-          "buy-buttons",
           "vendor",
           "divider",
           "description",
@@ -166,6 +144,7 @@
           "accordion_PGpw9a",
           "accordion_9X8wHL",
           "variant-picker",
+          "buy-buttons",
           "link_GtVRKf"
         ],
         "settings": {
