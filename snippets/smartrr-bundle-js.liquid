@@ -1,4 +1,3 @@
-
 {% assign hidden_text = "{{H}}" %}
 
 <script data-smartrr-modal-bundle-js>
@@ -431,9 +430,9 @@
     class BundleLocale {
       constructor() {
         this.default = {
-          bundleHeader: "Build your box",
-          packSelectionHeader: "Select size",
-          packSelectedHeader: "Your size",
+          bundleHeader: "Build your subscription box",
+          packSelectionHeader: "Select bundle size",
+          packSelectedHeader: "Your bundle size",
           packSelectionSizeChange: "Select different size",
           productSelectionFilterLabel: function (n) {
             return `Add ${n} items`;
@@ -845,7 +844,7 @@
           $packSelectionHeaderText.textContent = intl().packSelectedHeader;
           handler.cart.pack = Pack.GetPack(b.packs, packName);
           Log("Pack Selected ", handler.cart.pack);
-          InitializeProductSelection(handler);
+          InitializeProductSelection(handler); /* Commence comment, seems like we need to move this to reorder questions */
         }
       });
     }
@@ -970,6 +969,117 @@
           SelectPack(handler, atob(bundleConfig.chosenPack));
         }
       }
+    }
+    /**
+     * Commence Function Addition
+     * Generate Shoe Size Selector
+     */
+    function InitializeShoeSizeSelector(handler) {
+      function getShoeSizes() {
+        /*
+        var b = handler.bundle;
+        b.packs.forEach(function (pack) {
+          var variantId = pack.buyWithVariant;
+          b.bundleProduct.variants.forEach(function (variant) {
+            if (sh.seq(variant.id, variantId)) {
+              pack.variantAvailabe = variant.available;
+            }
+          })
+        }) */
+      }
+      /*
+      function GeneratePacks($packContainer) {
+        VerifyPackAvailability();
+        var b = handler.bundle;
+        b.packs.forEach(function (pack) {
+          var packString = pack.variantAvailabe? pack.alert: intl().productOutOfStock;
+          var packCTAString =
+            packString && packString.length > 0 ?
+              `
+                <div data-smartrr-bundle-pack-cta>
+                  <span>${packString}</span>
+                </div>
+              `: `
+                <div data-smartrr-bundle-pack-no-cta>
+                  <span>${packString}</span>
+                </div>
+              `;
+          var packString = `
+            <div data-smartrr-bundle-pack="${btoa(pack.name)}" class="${ct.OPEN}">
+              ${packCTAString}
+              <div data-smartrr-bundle-pack-name class="${pack.variantAvailabe? "": ct.EMPTY}">
+                <span>${pack.name}</span>
+              </div>
+              <div data-smartrr-bundle-pack-description>
+                <span>${pack.description}</span>
+              </div>
+            </div>
+          `;
+          sh.addHTML($packContainer, packString);
+        });
+        sh.addHTML(
+          $packContainer,
+          `
+          <div data-smartrr-bundle-pack-selection-change>
+            <span>
+              ${SVGList.packSelectionArrow}
+              <span>${intl().packSelectionSizeChange}</span>
+            </span>
+          </div>
+        `
+        );
+      }*/
+      var packSelectionString = `
+        <style>
+          #shoe-size-container ~ *:has(.commence-variant-card) .commence-variant-card { display: none; }
+
+          #shoe-size-container:has(option:checked[value="105"]) ~ *:has(.commence-variant-card) .commence-title-105 { display: block; }
+          #shoe-size-container:has(option:checked[value="11"]) ~ *:has(.commence-variant-card) .commence-title-11 { display: block; }
+          #shoe-size-container:has(option:checked[value="115"]) ~ *:has(.commence-variant-card) .commence-title-115 { display: block; }
+          #shoe-size-container:has(option:checked[value="12"]) ~ *:has(.commence-variant-card) .commence-title-12 { display: block; }
+          #shoe-size-container:has(option:checked[value="125"]) ~ *:has(.commence-variant-card) .commence-title-125 { display: block; }
+          #shoe-size-container:has(option:checked[value="13"]) ~ *:has(.commence-variant-card) .commence-title-13 { display: block; }
+          #shoe-size-container:has(option:checked[value="135"]) ~ *:has(.commence-variant-card) .commence-title-135 { display: block; }
+          #shoe-size-container:has(option:checked[value="1"]) ~ *:has(.commence-variant-card) .commence-title-1 { display: block; }
+          #shoe-size-container:has(option:checked[value="15"]) ~ *:has(.commence-variant-card) .commence-title-15 { display: block; }
+          #shoe-size-container:has(option:checked[value="2"]) ~ *:has(.commence-variant-card) .commence-title-2 { display: block; }
+          #shoe-size-container:has(option:checked[value="25"]) ~ *:has(.commence-variant-card) .commence-title-25 { display: block; }
+          #shoe-size-container:has(option:checked[value="3"]) ~ *:has(.commence-variant-card) .commence-title-3 { display: block; }
+        </style>
+
+        <div id="shoe-size-container" style="padding: var(--smartrr-padding-main); line-height: var(--smartrr-text-headera-lineheight); font-size: var(--smartrr-text-headera-fontsize); position: relative; border-bottom: 1px solid var(--smartrr-border-color-alternate);">
+          <label for="shoe-size">Select Shoe Size</label>
+          <select id="shoe-size" name="shoe-size" style="margin-left: 20px; border: none; appearance: none; -webkit-appearance: none; -moz-appearance: none; font-size: var(--smartrr-text-general-fontsize); line-height: var(--smartrr-text-general-lineheight); text-align: center; width: fit-content; padding: var(--smartrr-padding-small) var(--smartrr-padding-main); box-shadow: 0 0 0 1px var(--smartrr-border-color-main) inset; border-radius: var(--smartrr-padding-main); font-weight: var(--smartrr-text-fontweight-bold);">
+              <option value="" disabled selected>Select your size  ▼</option>
+              <option value="105">10.5</option>
+              <option value="11">11</option>
+              <option value="115">11.5</option>
+              <option value="12">12</option>
+              <option value="125">12.5</option>
+              <option value="13">13</option>
+              <option value="135">13.5</option>
+              <option value="1">1</option>
+              <option value="15">1.5</option>
+              <option value="2">2</option>
+              <option value="25">2.5</option>
+              <option value="3">3</option>
+          </select>
+        </div>
+        
+      `;
+      sh.addHTML(handler.$loc, packSelectionString);
+      /**
+       * On Click 'Select Different Bundle':
+       *  Reset the Head text
+       *  Re-Initialize Bundle
+       */
+      /*
+      sh.click($packSelectionChange, function () {
+        $packSelectionHeaderText.innerText = intl().packSelectionHeader;
+        bundleConfig.chosenPack = "";
+        bundleConfig.chosenProducts = [];
+        reInitializeBundle();
+      });*/
     }
     /**
      * Updates a product when the Cart is updated.
@@ -1116,7 +1226,8 @@
     function GenerateVariant(handler, $productList, refs, variant, product) {
       const productIDString = product ? product.id : "";
       const variantIDString = variant ? variant.id : "";
-      const classesString = `${ct.ACTIVE} ${variant ? "" : ct.EMPTY}`;
+      /* Commence Addition */ const variantTitle = variant ? variant.title : "";
+      /* Commence Modification */const classesString = `${ct.ACTIVE} ${variant ? "" : ct.EMPTY} commence-variant-card commence-title-${variantTitle.replace(/[^a-zA-Z0-9 ]/g, "")}`;
       const imageDefault =
         "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
       let imageString = "";
@@ -1623,6 +1734,8 @@
       InitializeCart(handler);
       InitializeHeader(handler);
       InitializePackSelection(handler);
+      // InitializeProductSelection(handler); /* Commence comment, breaks logic if we put this here */
+      /* Commence Addition */ InitializeShoeSizeSelector(handler);
       Log("Handler: ", handler);
     }
     try {
