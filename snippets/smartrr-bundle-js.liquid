@@ -431,19 +431,20 @@
       constructor() {
         this.default = {
           bundleHeader: "Build your subscription box",
-          packSelectionHeader: "Select bundle size",
-          packSelectedHeader: "Your bundle size",
+          packSelectionHeader: "Step 1 of 4: Select bundle size",
+          packSelectedHeader: "How many pairs in each box",
           packSelectionSizeChange: "Select different size",
           productSelectionFilterLabel: function (n) {
-            return `Add ${n} items`;
+            return `Step 3 of 4: Select ${n} Shoe Styles`;
           },
           productAddToCart: "Add",
           productSearchPlaceholder: "Search",
           productEmptySearch: "No Products found",
           productOutOfStock: "Out of Stock",
+          cartBoxProgress: "Some items chosen",
           cartBoxFull: "Box full!",
           cartClear: "Clear all",
-          cartFrequency: "How often?",
+          cartFrequency: "Step 4 of 4: How often do you need a new box?",
           cartOneTime: "One time purchase",
           cartConfirm: "Confirm",
         };
@@ -1048,9 +1049,12 @@
         </style>
 
         <div id="shoe-size-container" style="padding: var(--smartrr-padding-main); line-height: var(--smartrr-text-headera-lineheight); font-size: var(--smartrr-text-headera-fontsize); position: relative; border-bottom: 1px solid var(--smartrr-border-color-alternate);">
-          <label for="shoe-size">Select Shoe Size</label>
-          <select id="shoe-size" name="shoe-size" style="margin-left: 20px; border: none; appearance: none; -webkit-appearance: none; -moz-appearance: none; font-size: var(--smartrr-text-general-fontsize); line-height: var(--smartrr-text-general-lineheight); text-align: center; width: fit-content; padding: var(--smartrr-padding-small) var(--smartrr-padding-main); box-shadow: 0 0 0 1px var(--smartrr-border-color-main) inset; border-radius: var(--smartrr-padding-main); font-weight: var(--smartrr-text-fontweight-bold);">
-              <option value="" disabled selected>Select your size  ▼</option>
+          <label for="shoe-size" style="display: flex; gap: 2rem; align-items: baseline;">
+            <span>Step 2 of 4: Select Your Child's Shoe Size (US sizes)</span>
+            <a href="{{ settings.size_guide }}" style="text-decoration: underline; font-size: calc(var(--smartrr-text-headera-fontsize) * 0.7);">Size Guide</a>
+          </label>
+          <select id="shoe-size" name="shoe-size" style="margin-top: 1rem; display: block; border: none; appearance: none; -webkit-appearance: none; -moz-appearance: none; font-size: var(--smartrr-text-general-fontsize); line-height: var(--smartrr-text-general-lineheight); text-align: center; width: fit-content; padding: var(--smartrr-padding-small) var(--smartrr-padding-main); box-shadow: 0 0 0 1px var(--smartrr-border-color-main) inset; border-radius: var(--smartrr-padding-main); font-weight: var(--smartrr-text-fontweight-bold);">
+              <option value="" disabled selected>Choose a Size ▼</option>
               <option value="105">10.5</option>
               <option value="11">11</option>
               <option value="115">11.5</option>
@@ -1363,15 +1367,17 @@
               </div>
             </div>
 
-            <div data-smartrr-product-selection-search-container>
-              <div data-smartrr-product-selection-search>
-                <input placeholder="${intl().productSearchPlaceholder}">
-                ${SVGList.searchIcon}
+            {% comment %} Commence Modification, remove comment tags to re-show search bar
+              <div data-smartrr-product-selection-search-container>
+                <div data-smartrr-product-selection-search>
+                  <input placeholder="${intl().productSearchPlaceholder}">
+                  ${SVGList.searchIcon}
+                </div>
+                <div data-smartrr-product-search-mobile-cta>
+                  ${SVGList.searchIcon}
+                </div>
               </div>
-              <div data-smartrr-product-search-mobile-cta>
-                ${SVGList.searchIcon}
-              </div>
-            </div>
+            {% endcomment %}
           </div>
           <div data-smartrr-product-selection-list class="smartrr-scrollbar">
             <div data-smartrr-psl-empty class="${ct.HIDE}">
@@ -1498,12 +1504,20 @@
       }
     }
     function InitializeCartInfo(handler) {
+      var p = handler.cart.pack;
+      var c = handler.cart;
+      let current = c.currentNum;
+      let max = p.maxProducts;
+
       const cartInfoString = `
         <div data-smartrr-cart-info>
           <div data-smartrr-box-selection>
             <div data-smartrr-box-selection-progress-bar>
               <span data-smartrr-bspb-bar></span>
-              <div data-smartrr-bspb-full><span>${intl().cartBoxFull}</span></div>
+
+              <div data-smartrr-bspb-full>
+                <span>${intl().cartBoxFull}</span>
+              </div>
             </div>
             <div data-smartrr-box-selection-cards class="smartrr-scrollbar">
             </div>

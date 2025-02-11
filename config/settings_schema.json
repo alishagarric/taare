@@ -1167,6 +1167,17 @@
     ]
   },
   {
+    "name": "Size Guide",
+    "settings": [
+      {
+        "type": "text",
+        "id": "size_guide",
+        "label": "Size Guide",
+        "info": "https://example.com"
+      }
+    ]
+  },
+  {
     "name": "Social media",
     "settings": [
       {
