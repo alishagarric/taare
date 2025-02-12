@@ -50,10 +50,44 @@
                   {%- else -%}
                     {{- property.last | escape_once -}}
                   {%- endif -%}
+
                 </span>
               </div>
             {% endif %}
           {%- endfor -%}
+          
+          {% if item.properties['_smartrr_info'] != undefined %}
+            {% assign items = item.properties['_smartrr_info'] | split: 'id' %}
+            {% for item in items %}
+              {% if forloop.index0 != 0 %}
+                {% assign string = item | split: "quantity" %}
+                {% assign id = string[0] | handle | remove: 'quot' | remove: '-' | plus: 0 %}
+                {% assign string = string[1] | split: "selling_plan" %}
+                {% assign quantity = string[0] | handle | remove: 'quot' | remove: '-' %}
+
+
+               {% comment %} ID: {{ id }} {% endcomment %}
+
+                {% paginate collections.all.products by 1000 %}
+                  {% for product in collections.all.products %}
+                      {% for variant in product.variants %}
+                      {% if variant.id == id %}
+                        {% assign shopifyProduct = product %}
+                        {% assign shopifyVariantt = variant %}
+                      {% endif %}
+                      {% endfor %}
+                  {% endfor %}
+                {% endpaginate %}
+
+                {% comment %} To do if variant image exists, use it, if not product image {% endcomment %}
+                {{ shopifyProduct.title}} ({{quantity}})<br>
+                <img width="100" src="{{ shopifyProduct.featured_image | img_url: 'large' }}" />
+              {% endif %}
+
+              <br>
+              <br>
+            {% endfor %}
+          {% endif %}
 
           {% if item.selling_plan_allocation %}
             <div class="subscription-description">{{ item.selling_plan_allocation.selling_plan.name | escape_once }}</div>
